@@ -88,28 +88,43 @@
             <label for="name">Name</label>
             <div class="input-wrapper">
               <i class="fas fa-user"></i>
-              <input class="contact-input" type="text" id="name" name="name"
-                placeholder="Enter your name" required />
+              <input class="contact-input" type="text" id="name" name="name" placeholder="Enter your name" required />
             </div>
           </div>
+          
           <div class="input-group">
             <label for="email">Email</label>
             <div class="input-wrapper">
               <i class="fas fa-envelope"></i>
-              <input class="contact-input" type="email" id="email" name="email"
-                placeholder="Enter your email" required />
+              <input class="contact-input" type="email" id="email" name="email" placeholder="Enter your email" required />
             </div>
           </div>
-
+          
           <div class="input-group">
-            <label for="message">Message</label>
+            <label for="phone">Telephone Number</label>
+            <div class="input-wrapper">
+              <i class="fas fa-phone"></i>
+              <input class="contact-input" type="tel" id="phone" name="phone" placeholder="Enter your phone number" 
+                pattern="^[0-9\-\.\s]+$" required />
+            </div>
+          </div>
+          
+          <div class="input-group">
+            <label for="website">Website (Optional)</label>
+            <div class="input-wrapper">
+              <i class="fas fa-globe"></i>
+              <input class="contact-input" type="url" id="website" name="website" placeholder="Enter your website URL" />
+            </div>
+          </div>
+          
+          <div class="input-group">
+            <label for="message">Comments</label>
             <div class="input-wrapper textarea-wrapper">
               <i class="fas fa-comment"></i>
-              <textarea class="contact-textarea" id="message" name="message"
-                placeholder="Write your message here"
-                required></textarea>
+              <textarea class="contact-textarea" id="message" name="message" placeholder="Write your message here"></textarea>
             </div>
           </div>
+          
           <button type="submit" class="submit-btn">Submit</button>
         </form>
       </section>
