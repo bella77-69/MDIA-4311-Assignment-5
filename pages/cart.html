@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/cart.css">
+
+    <title>Elegant Threads - Cart</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-wrapper">
+        <div class="header-logo-wrapper">
+          <img src="../assets/logo/logo.jpg"
+            alt="Elegance Threads Logo Icon of an elegant orange evening gown with a slit, set against a dark blue background within a tilted square frame. Stylish and formal tone."
+            class="header-logo">
+          <h1 class="header-title">Elegant Threads</h1>
+        </div>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+        <label for="menu-toggle" class="navbar-toggler"> &#9776; </label>
+
+        <ul class="header-nav">
+          <li class="header-list">
+            <a class="not-active" href="../index.html">Home</a>
+          </li>
+          <li class="header-list">
+            <a class="not-active" href="./about.html">About</a>
+          </li>
+          <li class="header-list"><a class="not-active"
+              href="./shop.html">Shop</a></li>
+          <li class="header-list">
+            <a class="not-active" href="./contact.html">Contact</a>
+          </li>
+          <li class="header-list">
+            <a href="./cart.html" class="active-page">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="hero">
+      <div class="hero-image-wrapper">
+        <img src="../assets/images/cart_hero.jpg"
+          alt="Woman with bold red visors and wooden earrings gazes intently. She wears a beige turtleneck, with red lipstick and neatly manicured nails, against a soft gray background."
+          class="hero-image">
+      </div>
+      <div class="hero-text">
+        <h1>Your Shopping Cart</h1>
+
+      </div>
+    </div>
+
+    <main class="cart">
+      <div class="container">
+        <header class="cart-header">
+          <h1>Cart</h1>
+          <p class="cart-intro">Review the items you've selected before
+            proceeding to checkout. You can modify quantities,
+            remove items, or continue shopping to add more products. Your cart
+            is ready for a smooth and secure checkout
+            process.</p>
+        </header>
+
+        <div class="cart-container">
+          <div class="cart-items">
+
+            <div class="cart-item">
+              <div class="item-image">
+                <img src="../assets/images/shop_page.jpg"
+                  alt="Young woman with a thoughtful expression, wearing a beige blouse, brown jacket, and a red headband.">
+              </div>
+              <div class="item-info">
+                <h3 class="item-title">Product Name 1</h3>
+                <p class="item-price">$49.99</p>
+                <div class="quantity-controls">
+                  <button class="quantity-btn">-</button>
+                  <input type="number" class="quantity-input" value="1" min="1">
+                  <button class="quantity-btn">+</button>
+                </div>
+                <p class="remove-item">Remove Item</p>
+              </div>
+            </div>
+
+            <div class="cart-item">
+              <div class="item-image">
+                <img src="../assets/images/shop_page2.jpg"
+                  alt="A woman sits on a white chair wearing red sunglasses, brown patterned pants, red boots, and a white turtleneck.">
+              </div>
+              <div class="item-info">
+                <h3 class="item-title">Product Name 2</h3>
+                <p class="item-price">$79.99</p>
+                <div class="quantity-controls">
+                  <button class="quantity-btn">-</button>
+                  <input type="number" class="quantity-input" value="2" min="1">
+                  <button class="quantity-btn">+</button>
+                </div>
+                <p class="remove-item">Remove Item</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="cart-summary">
+            <h2 class="summary-title">Order Summary</h2>
+            <div class="summary-item">
+              <span>Subtotal:</span>
+              <span>$129.98</span>
+            </div>
+            <div class="summary-item">
+              <span>Tax:</span>
+              <span>$10.40</span>
+            </div>
+            <div class="summary-item">
+              <span>Shipping:</span>
+              <span>FREE</span>
+            </div>
+            <div class="summary-item summary-total">
+              <span>Total:</span>
+              <span>$140.38</span>
+            </div>
+            <div class="cart-links">
+              <a href="./shop.html" class="cart-back">Continue Shopping</a>
+              <button class="cart-checkout">Proceed to Checkout</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-logo-wrapper">
+          <h3 class="footer-name">Elegant Threads</h3>
+          <img src="../assets/logo/logo-small.jpg"
+            alt="Elegance Threads Logo Icon of an elegant orange evening gown with a slit, set against a dark blue background within a tilted square frame. Stylish and formal tone."
+            class="footer-logo">
+        </div>
+
+        <nav class="footer-nav">
+          <a class='footer-links' href="../index.html">Home</a>
+          <a class='footer-links' href="../pages/about.html">About</a>
+          <a class='footer-links' href="../pages/shop.html">Shop</a>
+          <a class='footer-links' href="../pages/contact.html">Contact</a>
+          <a class='footer-links' href="../pages/cart.html"><i
+              class="fas fa-shopping-cart"></i></a>
+
+        </nav>
+
+        <div class="social-section">
+          <h4 class="social-title">Follow Us</h4>
+          <div class="social-links">
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Facebook"><i
+                class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i
+                class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Pintrest"><i
+                class="fab fa-pinterest"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Elegant Threads. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+
+</html>
