@@ -1,7 +1,7 @@
-# BCIT MDIA 4311 - Assignment 4: Responsive Web Design
+# BCIT MDIA 4311 - Assignment 5: Responsive Web Design
 
 ## Overview
-This project is for **Assignment 4** in the **MDIA 4311** course at **BCIT**. The goal is to create a **responsive web design** that adapts to different screen sizes and devices, ensuring a seamless user experience.
+This project is for **Assignment 5** in the **MDIA 4311** course at **BCIT**. The goal is to create a **responsive web design** that adapts to different screen sizes and devices, ensuring a seamless user experience.
 
 ## Features
 - **Mobile-first approach** for better performance
